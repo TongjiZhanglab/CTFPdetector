@@ -12,7 +12,7 @@ source('CFTF.function.r')
 # Quick Start
 **Input file**: A count matrix of single-cell RNA-seq. The first row is time point imformation, others are genes. Columns are cells.
 
-**Output file**: A TF pairs list. It contains transcription factor pairs, fitness of competition model and the p-value of the test for paired values.
+**Output file**: A TF pairs list. It contains transcription factor pairs, fitness of competition model and the p-value of the fitness.
 
 1. Data preprocessing
 ```R
@@ -61,7 +61,7 @@ source('CFTF.function.r')
 > options(warn=0)
 
 # Rank TF pairs on competition model fitness
-CTFP_final <- CTFP_ranking(CTFP=CTFP_result_filter, compete_ret=compete_ret, savepath=SAVE.path)
+> CTFP_final <- CTFP_ranking(CTFP=CTFP_result_filter, compete_ret=compete_ret, savepath=SAVE.path)
 ```
 
 
