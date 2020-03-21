@@ -1,0 +1,11 @@
+Package: CTFPdetector
+Title: Detect Core TF pairs in cell fate determination process
+Description: Detect Core TF pairs in cell fate determination process
+Version: 1.0
+Author: Wenchao Xiu <xiuwenchao123@163.com>
+Depends:
+    R (>= 3.6.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
