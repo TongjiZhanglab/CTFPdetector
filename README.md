@@ -3,7 +3,7 @@ CTFPdetector is an R script (R version > 3.6.1) for cell fate transcription fact
 
 # Installation
 > 1. Download R scripts from github
-> 2. source the script
+> 2. Source the script
 
 ```R
 source('CFTF.function.r')
